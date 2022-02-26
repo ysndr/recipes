@@ -1,0 +1,110 @@
+title: Pak Choi Tofu Curry
+tags: vegetarian,noodle,asian,spicy
+
+shot:
+  file: ./photos/finished.jpg
+  description: Closeup shot of finished recipe
+
+gallery:
+
+recipe:
+  quantity: 1 hungry person dinner
+  
+  ingredients:
+    - name: Pak Choi
+      qty: 1
+      preparation:
+        - Cut in big pieces
+        - Separate leaves and stems
+    - name: Garlic
+      qty: 2 cloves
+      preparation:
+        - Crush
+        - Cut in small pieces
+    - name: Onion
+      qty: 1
+      preparation:
+        - Cut in slices or smaller
+    - name: Tofu
+      qty: 250g
+      details: Hard, but not dry-hard
+      preparation:
+        - Cut in pieces
+    
+    - name: Egg
+      qty: 2
+      preparation:
+        - wisk and fry
+    
+    - name: Noodles Jiangnan Style (江南面)
+      qty: 120g
+      details: Other kinds of coondles should work as well as long as they remain stiff
+      alt:
+        name: Jasmin Rice
+        qty: 1 Serving
+      preparation: Cook, and rinse quickly with cold water
+    
+    - name: Picked Aubergine (Pataks)
+    - name: Frying Oil
+    - name: Light Soy Sauce
+
+  steps:
+    - requires: 
+        - Onion, Garlic, Oil
+      instructions:
+        - instruction: Heat Oil (add to oil used for eggs if used)
+          heat: 7/10
+        - instruction: Fry onion
+          duration: 1 minunte
+        - instruction: Add garlic
+          duration: Until onion starts browning
+
+    - requires: 
+        - Tofu
+      instructions:
+        - instruction: Add tofu, keep stirring 
+          duration: Until tofu starts turning brown, crispy
+
+    - requires: 
+        - Picked Aubergine
+      instructions:
+        - instruction: Add pickled aubergine
+          quantity: 2-3 table spoons
+          seasoning: true
+        - instruction: Mix with with the fried ingedients
+        - instruction: fry and keep stirring
+          duration: 5 minutes
+      
+    - requires: 
+        - Pak Choi (Stem Parts)
+      instructions:
+        - instruction: Pak Choi
+        - instruction: fry and keep stirring
+          duration: 3 minutes (or ingredinets become too dry)
+    
+    - requires:
+        - Soy Sauce, Egg
+      instructions:  
+        - instruction: Add Soy Sauce
+          quantity: 1-2 Table Spoons
+          seasoning: true
+
+        - instruction: Add Egg
+        - instruction: fry and keep stirring
+          duration: 3-5 minutes
+
+    - requires: 
+       - Noodles
+      instruction:
+       - instruction: Add Noodles, and mix
+       - instruction: Fry and stir occasionally
+         duration: Until all noodles warn and covered with sauce
+
+     - requires: 
+       - Pak Choi (leave parts)
+       - Soy Sauce
+       - Picked Aubergine
+      instruction:
+       - instruction: Add Pak Choi
+       - instruction: Season with Soy Sauce or Aubergine
+         seasoning: true
